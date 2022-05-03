@@ -1,0 +1,35 @@
+.app-wrapper {
+  font-family: "Rubik", sans-serif;
+  width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: ; */
+  grid-template-areas:
+    "h h"
+    "n c";
+}
+.content {
+  margin: 20px 0px;
+  grid-area: c;
+  background-color: rgb(46, 44, 44);
+  border-top-right-radius: 20px;
+  padding: 10px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 20px -15px rgb(228, 231, 231);
+}
+.App {
+  height: 100%;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  padding: 10pxl;
+}
+body {
+  margin: 0;
+}

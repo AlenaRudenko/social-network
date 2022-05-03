@@ -1,0 +1,9 @@
+.posts_item img {
+  width: 50px;
+  border-radius: 50%;
+}
+.posts_item {
+  font-weight: 700;
+  /* display: flex;
+  align-items: center; */
+}
